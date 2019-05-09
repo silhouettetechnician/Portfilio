@@ -1,0 +1,5 @@
+assets/images/portfolio/spaces vid.mov filter=lfs diff=lfs merge=lfs -text
+assets/video/banterassistant.mp4 filter=lfs diff=lfs merge=lfs -text
+assets/video/Spaceinvadersvid.mp4 filter=lfs diff=lfs merge=lfs -text
+assets/video/spacesvid.mp4 filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
