@@ -34,13 +34,22 @@ p {
   line-height: 28px; }
 
 .row {
-  margin-left: 0;
-  margin-right: 0; }
+margin: 0 auto;
+}
+
+.rownav {
+  position: fixed; }
+
+.skills{
+
+}
+[class*=" devicon-"], [class^=devicon-] {
+  font-size: 6rem;
+}
 
 .hero {
   height: 110vh;
   /* background-image: url('../assets/images/transparentLogo.png'); */
-  background-attachment: scroll;
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
@@ -75,7 +84,6 @@ p {
 
 .glitch {
   position: relative;
-  margin: 0 auto;
   color: white;
   font-size: 10em;
   font-family: SuperGraphik, sans-serif;
@@ -110,7 +118,7 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-blend-mode: lighten;
@@ -328,7 +336,8 @@ marquee {
   transition: .5s; }
 
 .menu.active {
-  left: 10px; }
+  left: 10px;
+  background: transparent; }
 
 .menu ul {
   margin: 0;
@@ -583,47 +592,47 @@ img.grayscale:hover {
     background-position: 100% 50%; } }
 @keyframes glitch-effect {
   0% {
-    clip: rect(22px, 9999px, 11px, 0); }
+    clip: rect(7px, 9999px, 92px, 0); }
   5% {
-    clip: rect(76px, 9999px, 14px, 0); }
+    clip: rect(92px, 9999px, 76px, 0); }
   10% {
-    clip: rect(17px, 9999px, 48px, 0); }
+    clip: rect(53px, 9999px, 9px, 0); }
   15% {
-    clip: rect(21px, 9999px, 28px, 0); }
-  20% {
-    clip: rect(64px, 9999px, 4px, 0); }
-  25% {
-    clip: rect(10px, 9999px, 20px, 0); }
-  30% {
-    clip: rect(73px, 9999px, 78px, 0); }
-  35% {
-    clip: rect(66px, 9999px, 10px, 0); }
-  40% {
-    clip: rect(36px, 9999px, 29px, 0); }
-  45% {
-    clip: rect(97px, 9999px, 49px, 0); }
-  50% {
-    clip: rect(7px, 9999px, 75px, 0); }
-  55% {
-    clip: rect(63px, 9999px, 72px, 0); }
-  60% {
-    clip: rect(65px, 9999px, 68px, 0); }
-  65% {
-    clip: rect(13px, 9999px, 78px, 0); }
-  70% {
-    clip: rect(50px, 9999px, 86px, 0); }
-  75% {
-    clip: rect(28px, 9999px, 91px, 0); }
-  80% {
-    clip: rect(10px, 9999px, 80px, 0); }
-  85% {
-    clip: rect(89px, 9999px, 54px, 0); }
-  90% {
-    clip: rect(20px, 9999px, 24px, 0); }
-  95% {
     clip: rect(4px, 9999px, 47px, 0); }
+  20% {
+    clip: rect(36px, 9999px, 48px, 0); }
+  25% {
+    clip: rect(12px, 9999px, 1px, 0); }
+  30% {
+    clip: rect(46px, 9999px, 59px, 0); }
+  35% {
+    clip: rect(63px, 9999px, 85px, 0); }
+  40% {
+    clip: rect(59px, 9999px, 8px, 0); }
+  45% {
+    clip: rect(25px, 9999px, 13px, 0); }
+  50% {
+    clip: rect(24px, 9999px, 32px, 0); }
+  55% {
+    clip: rect(74px, 9999px, 69px, 0); }
+  60% {
+    clip: rect(34px, 9999px, 38px, 0); }
+  65% {
+    clip: rect(61px, 9999px, 98px, 0); }
+  70% {
+    clip: rect(16px, 9999px, 29px, 0); }
+  75% {
+    clip: rect(61px, 9999px, 5px, 0); }
+  80% {
+    clip: rect(67px, 9999px, 88px, 0); }
+  85% {
+    clip: rect(15px, 9999px, 84px, 0); }
+  90% {
+    clip: rect(63px, 9999px, 79px, 0); }
+  95% {
+    clip: rect(7px, 9999px, 16px, 0); }
   100% {
-    clip: rect(14px, 9999px, 32px, 0); } }
+    clip: rect(21px, 9999px, 97px, 0); } }
 @font-face {
   font-family: Graphik;
   src: url("../assets/fonts/Graphik-600-Semibold.otf"); }

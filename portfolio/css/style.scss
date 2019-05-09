@@ -21,7 +21,6 @@ h1 {
 h2 {
 
 	font-size:15px!important;
-
 	font-size:15px;
 	color:#353535!important;
 	text-transform:uppercase;
@@ -50,11 +49,18 @@ a{
   margin-left: 0;
   margin-right: 0;
 }
+.rownav{
+  position: fixed;
+}
+
+.col .s1{
+  width: 200px;
+}
 .hero{
   height: 110vh;
 
   /* background-image: url('../assets/images/transparentLogo.png'); */
-  background-attachment: scroll;
+  // background-attachment: scroll;
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
@@ -95,7 +101,6 @@ a{
 
 .glitch {
     position: relative;
-    margin: 0 auto;
     color: $primaryColor;
     font-size: 10em;
     font-family: SuperGraphik, sans-serif;
@@ -144,7 +149,7 @@ a{
 
   // background-image: url('../assets/images/nate-grant-346782-unsplash.jpg');
   // background-image: linear-gradient(to left right, rgba(rgba(49, 49, 49, 1) 0, #fff 100%););
-  background-size: contain;
+  background-size: cover;
   background-position: center;
     background-repeat: no-repeat;
     background-blend-mode: lighten;
@@ -287,20 +292,6 @@ marquee{
   /* transform: translate3d(39.3558px, 0px, 0px); */
 }
 
-// *******************MAIN TITLE **********************
-// .title{
-//   font-size: 10em;
-//   font-family: SuperGraphik;
-//   margin-bottom: 0.40em;
-//   color: white;
-//   background-attachment: fixed;
-//   position: relative;
-//   margin: 0 auto 1em;
-//   padding: 1em 1em .25em 1em;
-//   text-align: center;
-//   text-transform: uppercase;
-// }
-
 
 .wrapper {
     text-align: center;
@@ -409,6 +400,7 @@ marquee{
 
 .menu.active{
     left: 10px;
+    background: transparent;
 }
 
 .menu ul{
@@ -426,7 +418,6 @@ marquee{
     height: 50px;
     line-height: 50px;
     padding: 0 20px;
-
     -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
     color: white;
@@ -651,7 +642,7 @@ img.grayscale:hover {
 	transform:translate3d(0,0,0);
 	-ms-transform:translate3d(-40px,0,0);
 }
-.hype {
+.hype{
 	position:absolute;
 	left:0;
 	right:0;
