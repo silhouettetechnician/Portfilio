@@ -37,8 +37,20 @@ p {
 margin: 0 auto;
 }
 
+.row div{
+  margin: 50px;
+  align-items: center;
+}
 .rownav {
-  position: fixed; }
+  position: fixed;
+}
+
+.container-skills{
+  display: flex;
+  flex-direction: column;
+}
+
+
 
 .skills{
 
@@ -48,7 +60,7 @@ margin: 0 auto;
 }
 
 .hero {
-  height: 110vh;
+  height: 120vh;
   /* background-image: url('../assets/images/transparentLogo.png'); */
   background-repeat: no-repeat;
   background-position: right;
