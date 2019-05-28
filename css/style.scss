@@ -772,6 +772,7 @@ img.grayscale:hover {
       -webkit-transform: translateY(-50px) translateX(0px) rotate(1.2deg);
       position: relative;
       overflow-x: hidden;
+      z-index: 99;
 }
 .black-diagonal-left {
   width: 101%;
@@ -789,7 +790,12 @@ img.grayscale:hover {
     .hero{
       height: 100vh;
     }
-
+    #contact .heading-portfolio{
+      margin: 0 5px;
+      text-overflow: ellipsis;
+      text-align: center;
+      font-size: 50px;
+    }
     .container-skills{
       margin-right: 50px;
     }
@@ -836,6 +842,12 @@ img.grayscale:hover {
       overflow: hidden;
       text-overflow: ellipsis; 
     }
+
+    .tailortitle{
+      font-size: 45px;
+      line-height: 70px;
+      text-overflow: ellipsis;
+    }
     .project-section-wrapper > div > div{
       width: 80%;
     }
@@ -861,6 +873,9 @@ img.grayscale:hover {
       margin-left: 2.8px;
       left: auto;
       right: auto;
+    }
+    .swag{
+      padding: 0;
     }
 
   }
