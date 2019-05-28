@@ -727,13 +727,15 @@ video{
         font-size: 3.5rem
       }
   }
-
+/* TABLET */
 @media only screen and (min-width: 321px) and (max-width: 768px) {
   .title.glitch{
     font-size: 5em;
     text-align: center
   }
-  
+  .container > p{
+    font-size: 15px;
+  }
   .masonry {
     -moz-column-count: 2;
     -webkit-column-count: 2;
@@ -752,9 +754,7 @@ video{
     font-size: 1em;
   }
 
-  .container > p{
-    font-size: 15px;
-  }
+ 
 
   .heading-portfolio{
     font-size: 90px;
