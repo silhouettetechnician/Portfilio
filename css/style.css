@@ -695,35 +695,45 @@ video{
   src: url("../assets/fonts/BIG JOHN.otf"); }
 .item img {
   max-width: 100%; }
+  /* SMARTPHONES */
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+    .masonry {
+      -moz-column-count: 1;
+      -webkit-column-count: 1;
+      column-count: 1; }
+      .title.glitch{
+        font-size: 3em;
+        text-align: center
+      }
+      .rotate{
+        font-size: 0.8em;
+      }
+      .container > p{
+        font-size: 10px;
+      }
+      .heading-portfolio{
+        font-size: 70px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis; 
+      }
+      br{
+        display: static;
+      }
+      .links{
+        font-size: 2.5em;
+      }
+      [class*=" devicon-"], [class^=devicon-] {
+        font-size: 3.5rem
+      }
+  }
 
-@media only screen and (max-width: 320px) {
-  .masonry {
-    -moz-column-count: 1;
-    -webkit-column-count: 1;
-    column-count: 1; } }
 @media only screen and (min-width: 321px) and (max-width: 768px) {
   .title.glitch{
     font-size: 5em;
     text-align: center
   }
-  .rotate{
-    font-size: 0.8em;
-  }
-  .container > p{
-    font-size: 10px;
-  }
-  .heading-portfolio{
-    font-size: 70px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis; 
-  }
-  br{
-    display: static;
-  }
-  .links{
-    font-size: 2.5em;
-  }
+  
   .masonry {
     -moz-column-count: 2;
     -webkit-column-count: 2;
@@ -812,6 +822,10 @@ video{
         text-align: center;
         margin: 0 auto;
       }
+      .devicon .col{
+        padding: 0;
+        margin: 30px;
+      }
     }
 
     @media only screen and (max-width: 1074px) {
@@ -820,17 +834,29 @@ video{
         margin: 0 auto;
       }
       }
-
+    @media only screen and (max-width: 817px){
+      .devicon .col{
+        padding: 0;
+        margin: 20px;
+      }
+    }
 
     @media only screen and (max-width: 767px) {
       .heading-portfolio{
         font-size: 60px;
         overflow: hidden;
         text-overflow: ellipsis;
-        line-break: loose; 
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        overflow-wrap: break-word;  
       }
       br{
         display: block;
+      }
+      .devicon .col{
+        padding: 0;
+        margin: 0 auto;
       }
     }
 
