@@ -46,6 +46,8 @@ p{
 .row{
   margin-left: 0;
   margin-right: 0;
+  display: flex;
+  margin-right: 15%;
 }
 .rownav{
   position: fixed;
@@ -652,6 +654,9 @@ img.grayscale:hover {
 	top: 50px;
 }
 
+.container-skills{
+  margin-right: 10%;
+  }
 
 .st-logo{
   width: 100%;
@@ -895,7 +900,7 @@ img.grayscale:hover {
     padding: 0px;
     overflow-x: hidden;
     scroll-behavior: smooth;
-    
+
   }
     .diagonal-white-right {
       width: 101%;
@@ -1011,32 +1016,32 @@ img.grayscale:hover {
 
   }
 
-  // @media only screen and (max-width: 768px){
-  //   .glitch{
-  //   font-size: 8em;
-  //   text-align: left;
-  //   }
+  @media only screen and (max-device-width: 768px){
+    .glitch{
+    font-size: 8em;
+    text-align: left;
+    }
 
-  //   .container > p{
-  //     font-size: 16px;
-  //   }
-  //   .heading-portfolio{
-  //   font-family: SuperGraphik;
-  //   font-size: 100px;
-  //   color: black;
-  //   text-align: center;
-  //   }
-  //   video {
-  //     margin: 0 auto;
-  //     width: 280px;
-  //     margin-top: -99px;
-  //   }
-  //   .project-section-wrapper > div > div{
-  //   justify-content: center;
-  //   flex-direction: column;
-  //   height: 680px;
-  //   }
-  //   [class*=" devicon-"], [class^=devicon-]{
-  //     font-size: 3em;
-  //   }
-  // }
+    .container > p{
+      font-size: 16px;
+    }
+    .heading-portfolio{
+    font-family: SuperGraphik;
+    font-size: 100px;
+    color: black;
+    text-align: center;
+    }
+    video {
+      margin: 0 auto;
+      width: 280px;
+      margin-top: -99px;
+    }
+    .project-section-wrapper > div > div{
+    justify-content: center;
+    flex-direction: column;
+    height: 680px;
+    }
+    [class*=" devicon-"], [class^=devicon-]{
+      font-size: 3em;
+    }
+  }
