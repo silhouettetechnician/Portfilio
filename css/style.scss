@@ -73,6 +73,35 @@ p{
   margin-top: -20px;
   padding-top: 0;
 }
+.scrollto {
+  padding: 150px 0px 0px 0px;
+  display:block;
+  color:#FFF;
+  text-decoration:none;
+  width:200px;
+  margin:0 auto;
+  border-bottom: none;
+}
+.scrollto--arrow {
+  padding:10px;
+}
+.scrollto--arrow img {
+  animation:arrowbounce 1s alternate infinite;
+  -moz-animation:arrowbounce 1s alternate infinite;
+  /* Firefox */-webkit-animation:arrowbounce 1s alternate infinite;
+  /* Safari and Chrome */-o-animation: arrowbounce 1s alternate infinite;
+  /* Opera */
+}
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+ 
+}
+
+body > section.hero > div > div.col-md-6.col-md-offset-3.text-center{
+  margin-top: 20%;
+  margin-left: -50%;
+}
 .diagonal-white-right{
   width: 101%;
   border-bottom: 80px solid white;
