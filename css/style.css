@@ -434,7 +434,7 @@ marquee {
   min-height: 400px;
   background-attachment: fixed; }
 
-.portfolio {
+#portfolio {
   height: auto; }
 
 .project-section-wrapper > div {
@@ -534,6 +534,7 @@ img.grayscale:hover {
 
 #portfolioImage {
   transform: rotate(90deg); }
+
 
 .overlay {
   display: block;
@@ -695,9 +696,10 @@ img.grayscale:hover {
   font-family: BIGJOHN;
   src: url("../assets/fonts/BIG JOHN.otf"); }
 .item img {
-  max-width: 100%; }
+  max-width: 100%;
+}
 
-@media only screen and (max-width: 320px) {
+/* @media only screen and (max-width: 320px) {
   .masonry {
     -moz-column-count: 1;
     -webkit-column-count: 1;
@@ -716,8 +718,8 @@ img.grayscale:hover {
   .masonry {
     -moz-column-count: 4;
     -webkit-column-count: 4;
-    column-count: 4; } }
-@media only screen and (max-device-width: 480px) {
+    column-count: 4; } } */
+@media only screen and (max-width: 480px) {
   body, html {
     width: 100%;
     height: 100%;
@@ -744,9 +746,10 @@ img.grayscale:hover {
     bottom: -55px; }
 
   .masonry {
-    -moz-column-count: 1;
-    -webkit-column-count: 1;
-    column-count: 1; }
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+  }
 
   .hero {
     height: 100vh; }
@@ -824,8 +827,28 @@ img.grayscale:hover {
     right: auto; }
 
   .swag {
-    padding: 0; } }
-@media only screen and (max-device-width: 768px) {
+    padding: 0;
+   }
+  .contact-details{
+      display: block;
+    }
+  }
+
+  .videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+/* @media only screen and (max-device-width: 768px) {
   .glitch {
     font-size: 8em;
     text-align: left; }
@@ -850,6 +873,6 @@ img.grayscale:hover {
     height: 680px; }
 
   [class*=" devicon-"], [class^=devicon-] {
-    font-size: 3em; } }
+    font-size: 3em; } } */
 
 /*# sourceMappingURL=style.css.map */
